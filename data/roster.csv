@@ -1,15 +1,5 @@
 Name,Callsign,Rank,Status,Certs,Join Date
 "Tanner ""T-Bone"" Banks",M-001,Chief of Medicine,Active,"FTO, Air",10/14/2026
-Example Director,M-002,Medical Director,Active,"FTO, Air",10/01/2026
-Example Chief of Surgery,M-003,Chief of Surgery,Active,FTO,10/02/2026
-Example Attending,M-010,Attending Physician,Active,FTO,10/03/2026
-Example Resident,M-015,Resident Physician,Active,,10/04/2026
-Example PA,M-020,Physician Assistant,Active,,10/05/2026
-Example Senior Medic,M-030,Senior Paramedic,LOA,"FTO, Air",10/06/2026
-Example Paramedic,M-040,Paramedic,Active,FTO,10/08/2026
-Example AEMT,M-050,AEMT,Active,,10/10/2026
-Example EMT,M-060,EMT,Inactive,,10/12/2026
-Example Recruit,M-070,Recruit,Active,,10/20/2026
 Byrd Patterson,M-801,EMT,Active,,10/22/2026
 Finn Diesel,M-802,EMT,Active,,10/22/2026
 "William ""Willy"" Finisher",M-803,EMT,Active,,10/22/2026
