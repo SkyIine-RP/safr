@@ -1,0 +1,9 @@
+Name,Callsign,Rank,Status,Certs,Join Date
+Example Chief,1-01,Chief of Medicine,Active,"FTO, Air",10/01/2026
+Example Deputy,1-02,Department Chief,Active,"FTO, Air",10/01/2026
+Example Medic,2-10,Paramedic,Active,FTO,10/05/2026
+Example Medic Two,2-11,Paramedic,LOA,,10/08/2026
+Example AEMT,3-20,AEMT,Active,,10/12/2026
+Example EMT,4-30,EMT,Active,,10/15/2026
+Example EMT Two,4-31,EMT,Inactive,,10/16/2026
+Example Recruit,5-40,Recruit,Active,,10/20/2026

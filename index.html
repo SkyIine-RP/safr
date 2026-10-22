@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SAFR Handbook</title>
+    <meta name="description" content="San Andreas First Responders: SOPs, roster, vehicles and uniforms for Skyline Roleplay EMS." />
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+    <header class="masthead">
+        <div class="wrap masthead-inner">
+            <a href="#sops" class="brand" aria-label="SAFR handbook home">
+                <img src="assets/safr-logo-512.png" alt="San Andreas First Responders shield" width="88" height="104" />
+                <span>
+                    <strong>San Andreas First Responders</strong>
+                    <em>Skyline Roleplay EMS handbook</em>
+                </span>
+            </a>
+        </div>
+        <div class="chevrons" aria-hidden="true"></div>
+        <nav class="tabs" aria-label="Sections">
+            <div class="wrap tabs-inner" role="tablist">
+                <a href="#sops" role="tab" data-tab="sops">SOPs</a>
+                <a href="#roster" role="tab" data-tab="roster">Roster</a>
+                <a href="#vehicles" role="tab" data-tab="vehicles">Vehicles</a>
+                <a href="#clothing" role="tab" data-tab="clothing">Uniforms</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main" class="wrap">
+        <section id="view-sops" class="view" hidden></section>
+        <section id="view-roster" class="view" hidden></section>
+        <section id="view-vehicles" class="view" hidden></section>
+        <section id="view-clothing" class="view" hidden></section>
+    </main>
+
+    <footer class="foot">
+        <div class="wrap">Skyline Roleplay. For in-game roleplay only, not real medical advice.</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+    <script src="assets/app.js"></script>
+</body>
+</html>
