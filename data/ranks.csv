@@ -1,6 +1,11 @@
 Grade,Rank
 10,Chief of Medicine
-9,Department Chief
+9,Medical Director
+8,Chief of Surgery
+7,Attending Physician
+6,Resident Physician
+5,Physician Assistant
+4,Senior Paramedic
 3,Paramedic
 2,AEMT
 1,EMT

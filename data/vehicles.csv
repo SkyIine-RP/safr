@@ -5,13 +5,13 @@ Ambulance,Bison Ambulance,onx_ambbison,Pillbox Hill Medical,5,EMT,Carries a gurn
 Ambulance,Yankee Ambulance,onx_ambkee,Pillbox Hill Medical,5,AEMT,Heavy rescue box. Carries a gurney.
 Ambulance,Yankee Ambulance II,onx_ambkee2,Pillbox Hill Medical,5,AEMT,Carries a gurney.
 Ambulance,Sandking Rescue,onx_ambking,Pillbox Hill Medical,5,Paramedic,Off-road rescue. Carries a gurney.
-Response,Buffalo Response,onx_polbuff,SAFR,14,Paramedic,Fast response. No gurney.
-Response,Alamo Response,onx_polalamo,SAFR,14,Paramedic,No gurney.
-Supervisor,Scout Response,onx_polscout,SAFR,14,Paramedic,Supervisors only.
-Supervisor,Granger Supervisor,onx_polgrang2,SAFR,14,Paramedic,Supervisors only.
-Supervisor,Sandstorm Utility,onx_polsand,SAFR,14,Paramedic,Scene support and equipment.
-Supervisor,Caracara Command,onx_polcara,SAFR,14,Paramedic,Scene command.
-Supervisor,Sunset,onx_polsunset,SAFR,8,Paramedic,Motorcycle. Traffic and events.
+Response,Buffalo Response,onx_polbuff,SAFR,14,Senior Paramedic,Fast response. No gurney.
+Response,Alamo Response,onx_polalamo,SAFR,14,Senior Paramedic,No gurney.
+Supervisor,Scout Response,onx_polscout,SAFR,14,Physician Assistant,Supervisors only.
+Supervisor,Granger Supervisor,onx_polgrang2,SAFR,14,Physician Assistant,Supervisors only.
+Supervisor,Sandstorm Utility,onx_polsand,SAFR,14,Physician Assistant,Scene support and equipment.
+Supervisor,Caracara Command,onx_polcara,SAFR,14,Physician Assistant,Scene command.
+Supervisor,Sunset,onx_polsunset,SAFR,8,Resident Physician,Motorcycle. Traffic and events.
 Command,Coquette Chief,onx_polcoq,SAFR,14,Chief of Medicine,Chief's car.
-Air,Air Ambulance,onx_polmav,SAFR,21,Paramedic,Helipad on the Pillbox roof.
-Air,Air Ambulance 2,onx_polmav2,SAFR,21,Paramedic,Helipad on the Pillbox roof.
+Air,Air Ambulance,onx_polmav,SAFR,21,Senior Paramedic,Helipad on the Pillbox roof.
+Air,Air Ambulance 2,onx_polmav2,SAFR,21,Senior Paramedic,Helipad on the Pillbox roof.

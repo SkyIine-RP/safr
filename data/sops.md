@@ -29,9 +29,13 @@ Orders flow down the chain. If two members disagree on a scene, the highest rank
 
 | Grade | Rank | What they do |
 |---|---|---|
-| 10 | Chief of Medicine | Runs the department. Final say on policy, hiring and removals. |
-| 9 | Department Chief | Day-to-day leadership. Promotions, discipline and scheduling. |
-| 4 to 8 | Paramedic (senior) | Advanced care, scene command, field training, supervisor vehicles. |
+| 10 | Chief of Medicine | Runs SAFR and the hospital. Final say on policy, hiring and removals. |
+| 9 | Medical Director | Day-to-day leadership. Promotions, discipline, scheduling and medical protocols. |
+| 8 | Chief of Surgery | Leads the hospital's doctors and surgical RP. Senior clinical authority. |
+| 7 | Attending Physician | Fully trained doctor. Runs hospital care and supervises residents and PAs. |
+| 6 | Resident Physician | Doctor in training. Hospital care and surgery under an attending. |
+| 5 | Physician Assistant | Advanced provider. Treats in the hospital and in the field, assists doctors. |
+| 4 | Senior Paramedic | Experienced paramedic. Scene lead, field training and supervisor vehicles. |
 | 3 | Paramedic | Advanced life support: IV medications, pain management, critical patients. |
 | 2 | AEMT | Advanced EMT: IV fluids and a few extra medications. |
 | 1 | EMT | Basic life support. Drives the ambulance and handles most calls. |
