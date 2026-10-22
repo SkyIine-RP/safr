@@ -176,7 +176,7 @@
     }
 
     /* ---------- uniforms ---------- */
-    const PIECES = ['Hat', 'Mask', 'Jacket', 'Undershirt', 'Arms', 'Pants', 'Shoes', 'Vest', 'Decals', 'Accessory'];
+    const PIECES = ['Hat', 'Mask', 'Jacket', 'Undershirt', 'Arms', 'Pants', 'Shoes', 'Vest', 'Decals', 'Necklace'];
     const clothState = { gender: 'All' };
     async function renderClothing(view) {
         await getRanks();

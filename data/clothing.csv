@@ -1,23 +1,23 @@
-Rank,Outfit,Gender,Hat,Mask,Jacket,Undershirt,Arms,Pants,Shoes,Vest,Decals,Accessory,Notes
+Rank,Outfit,Gender,Hat,Mask,Jacket,Undershirt,Arms,Pants,Shoes,Vest,Decals,Necklace,Notes
 Recruit,Training Uniform,Male,,,,,,,,,,,Being decided
-Recruit,Training Uniform,Female,,,,,,,,,,,Being decided
+Recruit,Training Uniform,Female,N/A,N/A,590/16,14/0,109/0,218/16,160/1,0/0,N/A,0/0,
 EMT,Duty Uniform,Male,,,,,,,,,,,Being decided
-EMT,Duty Uniform,Female,,,,,,,,,,,Being decided
+EMT,Duty Uniform,Female,N/A,N/A,588-593/16,189/0,"101, 109/0",218/16,160/1,94/0,N/A,181/0,
 AEMT,Duty Uniform,Male,,,,,,,,,,,Being decided
-AEMT,Duty Uniform,Female,,,,,,,,,,,Being decided
+AEMT,Duty Uniform,Female,N/A,N/A,588-593/16,189/0,"101, 109/0",218/16,160/1,94/0,N/A,181/0,
 Paramedic,Duty Uniform,Male,,,,,,,,,,,Being decided
-Paramedic,Duty Uniform,Female,,,,,,,,,,,Being decided
+Paramedic,Duty Uniform,Female,N/A,N/A,588-593/16,189/0,"101, 109/0",218/16,160/1,94/0,N/A,181/0,
 Senior Paramedic,Duty Uniform,Male,,,,,,,,,,,Being decided
-Senior Paramedic,Duty Uniform,Female,,,,,,,,,,,Being decided
+Senior Paramedic,Duty Uniform,Female,N/A,N/A,588-593/16,189/0,"101, 109/0",218/16,160/1,94/0,N/A,181/0,
 Physician Assistant,Clinical Scrubs,Male,,,,,,,,,,,Being decided
-Physician Assistant,Clinical Scrubs,Female,,,,,,,,,,,Being decided
+Physician Assistant,Clinical Scrubs,Female,N/A,N/A,597/0,14/0,98/0,219/0,139/0,N/A,N/A,96/0,
 Resident Physician,Clinical Scrubs,Male,,,,,,,,,,,Being decided
-Resident Physician,Clinical Scrubs,Female,,,,,,,,,,,Being decided
+Resident Physician,Clinical Scrubs,Female,N/A,N/A,597/8,14/0,98/0,219/8,139/0,N/A,N/A,96/0,
 Attending Physician,Doctor's Coat,Male,,,,,,,,,,,Being decided
-Attending Physician,Doctor's Coat,Female,,,,,,,,,,,Being decided
+Attending Physician,Doctor's Coat,Female,N/A,N/A,597/16,14/0,98/0,219/16,139/0,N/A,N/A,96/0,
 Chief of Surgery,Doctor's Coat,Male,,,,,,,,,,,Being decided
-Chief of Surgery,Doctor's Coat,Female,,,,,,,,,,,Being decided
+Chief of Surgery,Doctor's Coat,Female,N/A,N/A,597/20,14/0,98/0,219/20,139/0,N/A,N/A,96/0,
 Medical Director,Command Uniform,Male,,,,,,,,,,,Being decided
 Medical Director,Command Uniform,Female,,,,,,,,,,,Being decided
 Chief of Medicine,Command Uniform,Male,,,,,,,,,,,Being decided
-Chief of Medicine,Command Uniform,Female,,,,,,,,,,,Being decided
+Chief of Medicine,Command Uniform,Female,N/A,N/A,597/23,14/0,98/0,219/23,139/0,N/A,N/A,96/0,
