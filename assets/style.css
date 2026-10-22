@@ -83,6 +83,7 @@ main { padding-top: 28px; padding-bottom: 56px; min-height: 60vh; }
 .group-title { display: flex; align-items: baseline; gap: 10px; margin: 30px 0 12px; font: 700 1.6rem/1.1 var(--head); }
 .group-title:first-child { margin-top: 0; }
 .group-title small { font: 600 .95rem var(--body); color: var(--muted); }
+.vacant { margin: 0; padding: 12px 16px; color: var(--muted); border: 1px dashed var(--line, rgba(255,255,255,.12)); border-radius: 10px; }
 
 /* ---------- SOPs ---------- */
 .sop { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 40px; align-items: start; }

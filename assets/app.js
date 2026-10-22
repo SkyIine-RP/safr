@@ -127,17 +127,20 @@
             const list = people.filter((p) => (rosterState.status === 'All' || String(p.Status).toLowerCase() === rosterState.status.toLowerCase())
                 && (!q || `${p.Name} ${p.Callsign} ${p.Rank} ${p.Certs}`.toLowerCase().includes(q)));
             const groups = new Map();
+            // with no search or filter, show every rank so open spots are visible
+            const filtering = !!q || rosterState.status !== 'All';
+            if (!filtering) ranks.forEach((r) => groups.set(r.rank, []));
             list.sort((a, b) => rankOrder(a.Rank) - rankOrder(b.Rank) || String(a.Callsign).localeCompare(String(b.Callsign), undefined, { numeric: true }))
                 .forEach((p) => { const k = p.Rank || 'No rank'; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p); });
             const body = $('#roster-body', view);
-            if (!list.length) { body.innerHTML = '<p class="empty">Nobody matches that search.</p>'; return; }
+            if (!groups.size) { body.innerHTML = '<p class="empty">Nobody matches that search.</p>'; return; }
             body.innerHTML = [...groups].map(([rank, ps]) => `<h2 class="group-title"><span class="rank-head"><span class="rank-bar ${rankOrder(rank) < 2 ? 'top' : ''}"></span>${esc(rank)}</span><small>${ps.length}</small></h2>
-                <table class="roster"><thead><tr><th>Name</th><th>Callsign</th><th>Status</th><th>Certifications</th><th>Joined</th></tr></thead><tbody>
+                ${!ps.length ? '<p class="vacant">No one at this rank yet.</p>' : `<table class="roster"><thead><tr><th>Name</th><th>Callsign</th><th>Status</th><th>Certifications</th><th>Joined</th></tr></thead><tbody>
                 ${ps.map((p) => `<tr><td class="c-name name">${esc(p.Name)}</td><td class="c-call"><span class="callsign">${esc(p.Callsign) || '<span class="dim">None</span>'}</span></td>
                     <td class="c-status"><span class="status ${statusClass(p.Status)}">${esc(p.Status || 'Unknown')}</span></td>
                     <td class="c-certs"><div class="certs">${String(p.Certs || '').split(',').map((c) => c.trim()).filter(Boolean).map((c) => `<span class="cert">${esc(c)}</span>`).join('') || '<span class="dim">None</span>'}</div></td>
                     <td class="c-join dim">${esc(p['Join Date'])}</td></tr>`).join('')}
-                </tbody></table>`).join('');
+                </tbody></table>`}`).join('');
         };
         draw();
         $('#roster-q', view).addEventListener('input', (e) => { rosterState.q = e.target.value; draw(); });
