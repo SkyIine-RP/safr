@@ -27,19 +27,26 @@ Breaking SOP usually goes: verbal warning, written warning, suspension, then rem
 
 Orders flow down the chain. If two members disagree on a scene, the highest rank present makes the call. Take complaints about a decision to command after the scene, not during it.
 
-| Grade | Rank | What they do |
-|---|---|---|
-| 10 | Chief of Medicine | Runs SAFR and the hospital. Final say on policy, hiring and removals. |
-| 9 | Medical Director | Day-to-day leadership. Promotions, discipline, scheduling and medical protocols. |
-| 8 | Chief of Surgery | Leads the hospital's doctors and surgical RP. Senior clinical authority. |
-| 7 | Attending Physician | Fully trained doctor. Runs hospital care and supervises residents and PAs. |
-| 6 | Resident Physician | Doctor in training. Hospital care and surgery under an attending. |
-| 5 | Physician Assistant | Advanced provider. Treats in the hospital and in the field, assists doctors. |
-| 4 | Senior Paramedic | Experienced paramedic. Scene lead, field training and supervisor vehicles. |
-| 3 | Paramedic | Advanced life support: IV medications, pain management, critical patients. |
-| 2 | AEMT | Advanced EMT: IV fluids and a few extra medications. |
-| 1 | EMT | Basic life support. Drives the ambulance and handles most calls. |
-| 0 | Recruit | In training. Always rides with an EMT or above. |
+| Grade | Rank | Tier | What they do |
+|---|---|---|---|
+| 10 | Chief of Medicine | High Command | Runs SAFR and the hospital. Final say on policy, hiring and removals. |
+| 9 | Medical Director | High Command | Day-to-day leadership. Promotions, discipline, scheduling and medical protocols. |
+| 8 | Chief of Surgery | High Command | Leads the hospital's doctors and surgical RP. Senior clinical authority. |
+| 7 | Attending Physician | Command | Fully trained doctor. Runs hospital care and supervises residents and PAs. |
+| 6 | Resident Physician | Command | Doctor in training. Hospital care and surgery under an attending. |
+| 5 | Physician Assistant | Supervisor | Advanced provider. Treats in the hospital and in the field, assists doctors. |
+| 4 | Senior Paramedic | Supervisor | Experienced paramedic. Scene lead, field training and supervisor vehicles. |
+| 3 | Paramedic | Shift Lead | Advanced life support: IV medications, pain management, critical patients. |
+| 2 | AEMT |  | Advanced EMT: IV fluids and a few extra medications. |
+| 1 | EMT |  | Basic life support. Drives the ambulance and handles most calls. |
+| 0 | Recruit |  | In training. Always rides with an EMT or above. |
+
+### Certifications
+
+| Cert | Who can hold it |
+|---|---|
+| FTO (Field Training Officer) | Shift Lead (Paramedic) and above |
+| Air (helicopter) | Supervisor (Senior Paramedic) and above |
 
 > **Recruits:** you never respond to a call alone. Ride with a field training officer or any member ranked EMT or higher until you're signed off.
 

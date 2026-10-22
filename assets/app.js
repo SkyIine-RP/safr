@@ -56,7 +56,7 @@
         return ranks;
     }
     const tierOf = (name) => ((ranks || []).find((r) => r.rank.toLowerCase() === String(name).toLowerCase()) || {}).tier || '';
-    const tierClass = (name) => ({ command: 'command', supervisor: 'supervisor' }[tierOf(name).toLowerCase()] || '');
+    const tierClass = (name) => ({ 'high command': 'high', command: 'command', supervisor: 'supervisor', 'shift lead': 'lead' }[tierOf(name).toLowerCase()] || '');
     const rankOrder = (name) => {
         const i = (ranks || []).findIndex((r) => r.rank.toLowerCase() === String(name).toLowerCase());
         return i < 0 ? 999 : i;

@@ -1,12 +1,12 @@
 Grade,Rank,Tier
-10,Chief of Medicine,Command
-9,Medical Director,Command
-8,Chief of Surgery,Command
+10,Chief of Medicine,High Command
+9,Medical Director,High Command
+8,Chief of Surgery,High Command
 7,Attending Physician,Command
 6,Resident Physician,Command
 5,Physician Assistant,Supervisor
 4,Senior Paramedic,Supervisor
-3,Paramedic,Supervisor
+3,Paramedic,Shift Lead
 2,AEMT,
 1,EMT,
 0,Recruit,

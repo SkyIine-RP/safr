@@ -18,6 +18,10 @@
     --good-tint: #11301F;
     --warn: #F0B04E;
     --orange: #FF8A3D;
+    --gold: #F2C14E;
+    --gold-tint: #2E2611;
+    --violet: #A78BFA;
+    --violet-tint: #221B38;
     --orange-tint: #33200F;
     --warn-tint: #352712;
     --bar: #090D11;
@@ -139,10 +143,14 @@ main { padding-top: 28px; padding-bottom: 56px; min-height: 60vh; }
 .dim { color: var(--muted); }
 .rank-head { display: flex; align-items: center; gap: 10px; }
 .rank-bar { width: 6px; height: 28px; border-radius: 3px; background: var(--blue); }
+.rank-bar.high { background: var(--gold); }
 .rank-bar.command { background: var(--red); }
+.rank-bar.lead { background: var(--violet); }
 .rank-bar.supervisor { background: var(--orange); }
 .tier { font: 600 .8rem var(--body); letter-spacing: .3px; padding: 3px 8px; border-radius: 999px; align-self: center; }
+.tier.high { color: var(--gold); background: var(--gold-tint); }
 .tier.command { color: var(--red-ink); background: var(--red-tint); }
+.tier.lead { color: var(--violet); background: var(--violet-tint); }
 .tier.supervisor { color: var(--orange); background: var(--orange-tint); }
 
 /* ---------- cards (vehicles, uniforms) ---------- */
