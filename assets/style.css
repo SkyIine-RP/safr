@@ -17,6 +17,8 @@
     --good: #4CC781;
     --good-tint: #11301F;
     --warn: #F0B04E;
+    --orange: #FF8A3D;
+    --orange-tint: #33200F;
     --warn-tint: #352712;
     --bar: #090D11;
     --pill: #2C3640;
@@ -137,7 +139,11 @@ main { padding-top: 28px; padding-bottom: 56px; min-height: 60vh; }
 .dim { color: var(--muted); }
 .rank-head { display: flex; align-items: center; gap: 10px; }
 .rank-bar { width: 6px; height: 28px; border-radius: 3px; background: var(--blue); }
-.rank-bar.top { background: var(--red); }
+.rank-bar.command { background: var(--red); }
+.rank-bar.supervisor { background: var(--orange); }
+.tier { font: 600 .8rem var(--body); letter-spacing: .3px; padding: 3px 8px; border-radius: 999px; align-self: center; }
+.tier.command { color: var(--red-ink); background: var(--red-tint); }
+.tier.supervisor { color: var(--orange); background: var(--orange-tint); }
 
 /* ---------- cards (vehicles, uniforms) ---------- */
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }

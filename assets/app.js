@@ -51,10 +51,12 @@
     async function getRanks() {
         if (ranks) return ranks;
         try {
-            ranks = (await load('ranks.csv')).map((r) => ({ grade: Number(r.Grade), rank: r.Rank })).sort((a, b) => b.grade - a.grade);
+            ranks = (await load('ranks.csv')).map((r) => ({ grade: Number(r.Grade), rank: r.Rank, tier: String(r.Tier || '').trim() })).sort((a, b) => b.grade - a.grade);
         } catch (e) { ranks = []; }
         return ranks;
     }
+    const tierOf = (name) => ((ranks || []).find((r) => r.rank.toLowerCase() === String(name).toLowerCase()) || {}).tier || '';
+    const tierClass = (name) => ({ command: 'command', supervisor: 'supervisor' }[tierOf(name).toLowerCase()] || '');
     const rankOrder = (name) => {
         const i = (ranks || []).findIndex((r) => r.rank.toLowerCase() === String(name).toLowerCase());
         return i < 0 ? 999 : i;
@@ -134,7 +136,7 @@
                 .forEach((p) => { const k = p.Rank || 'No rank'; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p); });
             const body = $('#roster-body', view);
             if (!groups.size) { body.innerHTML = '<p class="empty">Nobody matches that search.</p>'; return; }
-            body.innerHTML = [...groups].map(([rank, ps]) => `<h2 class="group-title"><span class="rank-head"><span class="rank-bar ${rankOrder(rank) < 2 ? 'top' : ''}"></span>${esc(rank)}</span><small>${ps.length}</small></h2>
+            body.innerHTML = [...groups].map(([rank, ps]) => `<h2 class="group-title"><span class="rank-head"><span class="rank-bar ${tierClass(rank)}"></span>${esc(rank)}${tierOf(rank) ? `<span class="tier ${tierClass(rank)}">${esc(tierOf(rank))}</span>` : ''}</span><small>${ps.length}</small></h2>
                 ${!ps.length ? '<p class="vacant">No one at this rank yet.</p>' : `<table class="roster"><thead><tr><th>Name</th><th>Callsign</th><th>Status</th><th>Certifications</th><th>Joined</th></tr></thead><tbody>
                 ${ps.map((p) => `<tr><td class="c-name name">${esc(p.Name)}</td><td class="c-call"><span class="callsign">${esc(p.Callsign) || '<span class="dim">None</span>'}</span></td>
                     <td class="c-status"><span class="status ${statusClass(p.Status)}">${esc(p.Status || 'Unknown')}</span></td>

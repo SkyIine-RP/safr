@@ -21,7 +21,7 @@ Everything you'd change lives in the `data` folder. Open a file on GitHub, click
 | File | What it is |
 |---|---|
 | `data/roster.csv` | The roster. One person per line: `Name,Callsign,Rank,Status,Certs,Join Date`. Status is `Active`, `LOA` or `Inactive`. Put quotes around certs with commas: `"FTO, Air"` |
-| `data/ranks.csv` | Rank names and their order. The roster and uniforms are sorted by this |
+| `data/ranks.csv` | Rank names and their order. The roster and uniforms are sorted by this. `Tier` is `Command` (red) or `Supervisor` (orange), or empty |
 | `data/sops.md` | The SOPs. `##` starts a new section (it shows in the side menu), `###` a smaller heading. Start a table row with `★` to highlight it as **Common** |
 | `data/vehicles.csv` | Vehicles. `Livery #` is the number you'd use with `/liv` |
 | `data/clothing.csv` | Uniforms. Each piece is `style/color`, for example `250/3`. Leave a cell empty to show "Not set" |
