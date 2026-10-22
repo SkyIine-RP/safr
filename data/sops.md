@@ -137,8 +137,8 @@ How you talk sells the RP. Stay calm, introduce yourself and explain what you're
 | Vitals | Heart rate, blood pressure, breathing rate, oxygen level (SpO2), temperature |
 | Chief complaint | The main problem in the patient's words ("My chest hurts") |
 | MOI | Mechanism of injury: what caused it (fall, car crash, gunshot) |
-| SAMPLE | History questions: Signs and symptoms, Allergies, Medications, Past history, Last meal, Events leading up |
-| OPQRST | Pain questions: Onset, Provokes, Quality, Radiates, Severity, Time |
+| SAMPLE | History questions: **S**igns and symptoms, **A**llergies, **M**edications, **P**ast medical history, **L**ast oral intake (last meal or drink), **E**vents leading up |
+| OPQRST | Pain questions: **O**nset (when did it start?), **P**rovocation (what makes it better or worse?), **Q**uality (sharp, dull, burning?), **R**egion and radiation (where is it, does it spread?), **S**everity (1 to 10), **T**ime (constant or comes and goes?) |
 | Triage | Sorting several patients by how urgent they are |
 
 ### Injury and condition terms
