@@ -1,17 +1,14 @@
 Type,Name,Spawn Code,Livery,Livery #,Min Rank,Notes
-Ambulance,Sprinter Ambulance,onx_ambjog2,Pillbox Hill Medical,5,Recruit,Main ambulance. Carries a gurney.
-Ambulance,Sprinter Ambulance II,onx_ambjog3,Pillbox Hill Medical,5,EMT,Carries a gurney.
-Ambulance,Bison Ambulance,onx_ambbison,Pillbox Hill Medical,5,EMT,Carries a gurney.
-Ambulance,Yankee Ambulance,onx_ambkee,Pillbox Hill Medical,5,AEMT,Heavy rescue box. Carries a gurney.
-Ambulance,Yankee Ambulance II,onx_ambkee2,Pillbox Hill Medical,5,AEMT,Carries a gurney.
-Ambulance,Sandking Rescue,onx_ambking,Pillbox Hill Medical,5,Paramedic,Off-road rescue. Carries a gurney.
-Response,Buffalo Response,onx_polbuff,SAFR,14,Senior Paramedic,Fast response. No gurney.
-Response,Alamo Response,onx_polalamo,SAFR,14,Senior Paramedic,No gurney.
-Supervisor,Scout Response,onx_polscout,SAFR,14,Physician Assistant,Supervisors only.
-Supervisor,Granger Supervisor,onx_polgrang2,SAFR,14,Physician Assistant,Supervisors only.
-Supervisor,Sandstorm Utility,onx_polsand,SAFR,14,Physician Assistant,Scene support and equipment.
-Supervisor,Caracara Command,onx_polcara,SAFR,14,Physician Assistant,Scene command.
-Supervisor,Sunset,onx_polsunset,SAFR,8,Resident Physician,Motorcycle. Traffic and events.
-Command,Coquette Chief,onx_polcoq,SAFR,14,Chief of Medicine,Chief's car.
-Air,Air Ambulance,onx_polmav,SAFR,21,Senior Paramedic,Helipad on the Pillbox roof.
-Air,Air Ambulance 2,onx_polmav2,SAFR,21,Senior Paramedic,Helipad on the Pillbox roof.
+Ambulance,Sprinter Ambulance,onx_ambjog2,SAFR,,EMT,Main ambulance. Carries a gurney.
+Ambulance,Sprinter Ambulance II,onx_ambjog3,SAFR,,EMT,Carries a gurney.
+Ambulance,Sprinter Ambulance III,onx_ambjog,SAFR,,AEMT,Carries a gurney.
+Ambulance,Bison Ambulance,onx_ambbison,SAFR,,AEMT,Carries a gurney.
+Ambulance,Sandstorm Ambulance,onx_ambstorm,SAFR,,AEMT,Off-road ambulance. No gurney.
+Response,Tavros Response,onx_poltavros,SAFR,,AEMT,Fast response. No gurney.
+Response,Sandstorm Utility,onx_polsand,SAFR,,Senior Paramedic,Scene support and equipment.
+Response,Dorado Response,onx_poldorado2,SAFR,,Physician Assistant,Supervisors.
+Response,Stalker Response,onx_polstalk,SAFR,,Physician Assistant,Supervisors.
+Response,V-STR Response,onx_polvstr,SAFR,,Resident Physician,Command staff.
+Command,Regent XL Command,onx_polregentxl,SAFR,,Medical Director,High Command car.
+Air,Air Ambulance,onx_polmav,SAFR,,Senior Paramedic,Mount Zonah helipads.
+Air,Air Ambulance 2,onx_polmav2,SAFR,,Senior Paramedic,Mount Zonah helipads.
